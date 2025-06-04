@@ -1,0 +1,163 @@
+.footerbody {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: #7F8381;
+}
+
+.footertop {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.footertop>div {
+    max-width: 45%;
+}
+
+.footertopleft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray-light-color);
+}
+
+.footertoplefticon {
+    max-width: 70px;
+    width: 100%;
+    height: 70px;
+    background-color: #00A0E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footertopleft h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.footertopright {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 320px;
+}
+
+.footertopright .form-control {
+    width: 100%;
+    padding: 1rem;
+}
+
+.footermain {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.footermain>div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 320px ;
+    width: 100%;
+}
+
+.footermainabout .logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+.footermainabout .logo img {
+    max-width: 100%;
+}
+
+.footermainabout {
+    font-size: 14px;
+}
+
+.footermainabout  .headingthree{
+    color: var(--gray-light-color);
+}
+
+.socialmedia {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+
+}
+
+.socialmedia a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #E0E0E0;
+    background-color: #00A0E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    max-width:35px;
+    height: 35px;
+    width: 100%;
+}
+
+.socialmedia a i {
+    margin: auto;
+}
+
+.footermainabout ul li{
+    margin-top: 0.5rem;
+    list-style: none;
+    color: #7F8381;
+}
+
+.footermainabout ul li a{
+    color: #7F8381;
+}
+
+
+
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    color: #7F8381;
+    font-size: 0.9rem;
+}
+
+.copyright{
+    display: flex;
+    gap: 1rem;
+    color: #7F8381;
+}
+
+.footerbottom a{
+    color: #7F8381;
+    text-decoration: none;
+}
+
+.termscondition{
+    display: flex;
+    gap: 1rem;
+    color: #7F8381;
+}
+
+
+@media (max-width: 768px) {
+    .footertop {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footertop>div {
+        max-width: 100%;
+    }
+    
+    .footermain {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footermain>div {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,241 @@
+{
+  "website": {
+    "home_page": {
+      "sections": [
+        {
+          "name": "Hero Section",
+          "title": "Elevating Facilities, Ensuring Excellence – LD Management Services",
+          "subtitle": "Your Trusted Partner for Housekeeping, Canteen & Facility Management Across India",
+          "content": "LDMS brings over a decade of expertise in transforming facilities across North India. Our integrated solutions cover housekeeping, canteen services, pest control, and staffing for corporate, healthcare, and government sectors. With 100+ trained professionals and a commitment to SLA-driven excellence, we ensure your non-core operations run seamlessly. Explore how our customized services can reduce your operational burdens while maintaining statutory compliance and international quality standards.",
+          "cta": "Get a Free Consultation",
+          "image": "hero-banner.jpg"
+        },
+        {
+          "name": "About LDMS (Brief)",
+          "title": "Who We Are",
+          "content": "Founded in 2020 by Mr. Ranjeet Mishra, LD Management Services has grown from a local housekeeping provider to a multi-state facility management leader. We now serve prestigious clients like IDBI Bank, Ambuja Cement (Adani Group), and Smart City Bhopal, managing over 10 sites with an annual turnover of ₹50 lakh. Our core philosophy revolves around three pillars: Quality (ISO-inspired processes), Compliance (100% adherence to PF, ESIC, and minimum wage laws), and Customization (tailored solutions for IT parks, hospitals, and industrial units). What sets us apart is our employee-first approach—each staff member undergoes 120+ hours of training annually, ensuring they deliver exceptional service while feeling valued through initiatives like 'Employee of the Month' awards and grievance redressal systems.",
+          "cta": "Learn More About Us →"
+        },
+        {
+          "name": "Our Services",
+          "title": "Comprehensive Facility Solutions",
+          "services": [
+            {
+              "name": "Housekeeping",
+              "details": "Daily and deep cleaning services using advanced equipment like floor scrubbers, HEPA-filter vacuums, and eco-friendly disinfectants. Specialized in high-rise window cleaning (with OSHA-certified safety gear) and carpet/upholstery maintenance."
+            },
+            {
+              "name": "Canteen Management",
+              "details": "End-to-end cafeteria solutions including menu planning (FSSAI-compliant), kitchen hygiene audits, and staff meal programs. We source 80% ingredients locally to ensure freshness while controlling costs."
+            },
+            {
+              "name": "Pest Control",
+              "details": "Quarterly preventive treatments using non-toxic chemicals. Emergency response within 24 hours for infestations. Special packages for hospitals and food processing units."
+            }
+          ],
+          "cta": "Explore All Services →"
+        },
+        {
+          "name": "Unique Advantages",
+          "title": "Why Choose LDMS?",
+          "advantages": [
+            {
+              "point": "Statutory Compliance",
+              "detail": "We handle all legal formalities—PF, ESIC, wage revisions—so you avoid penalties. Monthly compliance reports provided."
+            },
+            {
+              "point": "Transparent Pricing",
+              "detail": "No hidden costs. Rates include training, equipment, and taxes. Annual revisions only per government wage notifications."
+            },
+            {
+              "point": "Rapid Mobilization",
+              "detail": "Deploy staff within 15 days of contract signing. Emergency services available 24/7."
+            }
+          ],
+          "stats": [
+            {
+              "metric": "Client Retention",
+              "value": "98%"
+            },
+            {
+              "metric": "Training Hours/Employee",
+              "value": "120+ yearly"
+            }
+          ]
+        },
+        {
+          "name": "Quality Assurance",
+          "title": "Our Commitment to Excellence",
+          "processes": [
+            {
+              "name": "Quarterly Audits",
+              "detail": "Independent quality checks using 50+ KPIs like cleaning efficacy, response time, and client satisfaction."
+            },
+            {
+              "name": "Client Feedback",
+              "detail": "Bi-annual surveys with actionable insights. 92% of clients rate us 4.5/5+ for reliability."
+            }
+          ],
+          "testimonial": {
+            "text": "LDMS reduced our facility management costs by 30% while improving hygiene scores by 45%.",
+            "author": "Smart City Bhopal Project Head"
+          }
+        },
+        {
+          "name": "Contact CTA",
+          "title": "Ready to Transform Your Facilities?",
+          "form_fields": ["Name", "Email", "Phone", "Service Needed (Dropdown)"],
+          "cta": "Request a Quote"
+        }
+      ]
+    },
+    "about_page": {
+      "breadcrumb": "Home > About LDMS",
+      "sections": [
+        {
+          "name": "Driven by Excellence",
+          "title": "Our Core Philosophy",
+          "content": "At LDMS, we believe facilities shape productivity. Our mission—'Quality in Services, Priority to Customer'—is achieved through: Transparency (open-book pricing), Innovation (AI-powered audits in pilot phase), and Empathy (employee welfare programs). We’ve aligned our processes with UN Sustainable Development Goals (SDG 8 - Decent Work), ensuring fair wages and growth opportunities for our team while delivering eco-conscious solutions like water-saving cleaning techniques and biodegradable chemicals."
+        },
+        {
+          "name": "A Journey of Excellence",
+          "title": "Milestones",
+          "timeline": [
+            {
+              "year": "2020",
+              "event": "Launched with 2 housekeeping staff at Think Gas, Bhopal."
+            },
+            {
+              "year": "2021",
+              "event": "Expanded to 5 states; onboarded IDBI Bank and Ambuja Cement."
+            },
+            {
+              "year": "2023",
+              "event": "Achieved ₹50L turnover; 100+ employees; introduced canteen services."
+            }
+          ]
+        },
+        {
+          "name": "Our Vision",
+          "title": "Building the Future of Facilities",
+          "content": "By 2025, LDMS aims to: 1) Expand to 10+ Indian states, 2) Integrate IoT for real-time facility monitoring, and 3) Launch a 'Green Facilities' initiative to cut client carbon footprints by 20%. We’re investing in VR-based staff training to simulate complex scenarios like hospital biohazard cleaning."
+        },
+        {
+          "name": "Committed to Your Satisfaction",
+          "title": "By the Numbers",
+          "stats": [
+            {
+              "metric": "Client Retention Rate",
+              "value": "98%"
+            },
+            {
+              "metric": "Training Hours/Year",
+              "value": "5,000+"
+            },
+            {
+              "metric": "SLA Compliance",
+              "value": "100%"
+            }
+          ]
+        },
+        {
+          "name": "Meet Our Experts",
+          "title": "Leadership Team",
+          "team": [
+            {
+              "name": "Mr. Ranjeet Mishra",
+              "role": "Founder",
+              "bio": "Ex-TATA Facilities Manager with 12+ years in industrial housekeeping. Spearheads compliance and client relations."
+            },
+            {
+              "name": "Anirudh Mishra",
+              "role": "Operations Head",
+              "bio": "HR specialist focused on employee engagement. Implemented LDMS’s award-winning training programs."
+            }
+          ]
+        }
+      ]
+    },
+    "services_page": {
+      "breadcrumb": "Home > Services",
+      "sections": [
+        {
+          "name": "Expert Quality You Can Trust",
+          "title": "SLA-Driven Facility Management",
+          "content": "Every LDMS service follows a 6-step quality cycle: 1) Needs Assessment, 2) Custom SOP Creation, 3) Staff Training, 4) Implementation, 5) Weekly Audits, 6) Continuous Improvement. Our proprietary '3T Model' (Tools, Training, Tracking) ensures consistency. For example, hospital housekeeping staff receive 80-hour specialized training in bio-waste handling and infection control."
+        },
+        {
+          "name": "Testimonial",
+          "quote": "Switching to LDMS saved us ₹12 lakh/year in staffing costs while improving cafeteria satisfaction scores from 3.2 to 4.7/5.",
+          "author": "RKDF School Administrator"
+        },
+        {
+          "name": "Our Best Services",
+          "services": [
+            {
+              "name": "Industrial Housekeeping",
+              "details": "Includes machinery degreasing, hazardous waste disposal (OSHA standards), and PPE provision for staff. Case Study: Reduced Essar Power’s equipment downtime by 15% through preventive cleaning."
+            },
+            {
+              "name": "Corporate Canteens",
+              "details": "From ₹50/meal budget menus to executive dining. Featured: AI-based food wastage tracking at Ambuja Cement cut costs by 18%."
+            }
+          ]
+        },
+        {
+          "name": "Technology Integration",
+          "title": "Innovative Tools",
+          "content": "We use: 1) Janitorial Management Software for real-time task tracking, 2) ATP meters to verify surface cleanliness (pass threshold: <50 RLUs), and 3) Mobile apps for client service requests (avg. response time: 22 minutes)."
+        },
+        {
+          "name": "CTA",
+          "title": "Need a Custom Solution?",
+          "content": "Book an on-site assessment with our facility experts. Includes free: 1) Space evaluation, 2) Staffing plan, 3) Cost-benefit analysis.",
+          "cta": "Schedule Audit"
+        }
+      ]
+    },
+    "contact_page": {
+      "breadcrumb": "Home > Contact",
+      "sections": [
+        {
+          "name": "Get in Touch",
+          "details": {
+            "address": "B-63, AB Smart City, Katara Hills, Bhopal-462043",
+            "phone": ["+91-9691999631", "+91-7415885587"],
+            "email": "Ldmanagement_services@yahoo.com",
+            "hours": "Mon-Sat: 9:00 AM - 6:00 PM"
+          },
+          "map_embed": "<Google Maps iframe>"
+        },
+        {
+          "name": "Book Your Service",
+          "form_fields": ["Name", "Organization", "Service Needed", "Preferred Date", "Message"],
+          "cta": "Submit Request"
+        },
+        {
+          "name": "FAQ’s",
+          "questions": [
+            {
+              "q": "What’s included in housekeeping pricing?",
+              "a": "Covers labor, equipment, chemicals, and training. Excludes heavy machinery rentals."
+            },
+            {
+              "q": "How are emergencies handled?",
+              "a": "Dedicated hotline with 2-hour response for spills, pest outbreaks, etc."
+            }
+          ]
+        },
+        {
+          "name": "Service Areas",
+          "locations": ["Madhya Pradesh", "Uttar Pradesh", "Rajasthan", "Chhattisgarh", "Odisha"]
+        },
+        {
+          "name": "Footer CTA",
+          "content": "For urgent requests, call our 24/7 manager: +91-9691999631",
+          "social_links": ["Facebook", "LinkedIn"]
+        }
+      ]
+    }
+  }
+}

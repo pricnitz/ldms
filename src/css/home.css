@@ -1,0 +1,561 @@
+
+.herobody {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.herobody>div {
+    max-width: 50%;
+}
+
+#herosection .herobanner .herobodyleft{
+    width: 100%;
+}
+
+#herosection .herobanner .herobodyleft h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--white-card-color);
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.herobodyleftcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+#herosection .herobanner .herobodyleft h2{
+    /* font-size: 40px; */
+    font-weight: 500;
+    color: var(--blue-exlight-color);
+    line-height: 1.1;
+}
+
+
+.herobtns {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.herobtns .getstartedbtn{
+    text-transform: uppercase;
+}
+
+.herobtns .getstartedbtntwo{
+    background-color: #000000;
+    text-transform: uppercase;
+}
+
+
+.herobodyright{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 500px;
+}
+.herobodyrightimg{
+    max-width: 60%;
+    
+}
+
+.herobodyrightimg img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.herobodyrightcard{
+    border-radius: 5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #413F3F 0%, #8C636DB5 100%);
+    width: 250px;
+    min-height: 250px;
+    right: 0%;
+    top: 0%;
+}
+.herobodyrightcardbody{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding: 25px;
+}
+
+.herobodyrightcardbodyimg{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.herobodyrightcardbodyimg img{
+    width: 100%;
+}
+
+.herobodyrightcardbody p{
+    font-size: 14px;
+    color: var(--white-card-color);
+}
+
+.herobodyrightcardbodyfooter{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+}
+.herobodyrightcardbodyfooter i {
+    color: greenyellow;
+}
+
+.herobrands{
+    margin-top:5rem ;
+    color: white;
+}
+
+.herobrandsheading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.herobrandsheading h4{
+  width: fit-content;
+  text-wrap: nowrap;
+}
+
+.herobrandsheading .line{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 1px;
+}
+
+.herobrandsbody{
+    margin-top: 5rem;
+}
+
+
+.homeoverviewbanner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.herobrandscontainer{
+    min-height: 30vh;
+}
+
+.homeoverviewbannerbody {
+    display: flex;
+    gap: 3rem;
+    height: 100%;
+}
+
+.homeoverviewbannerbodyleft{
+    max-width: 35%;
+    min-width: 320px;
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-top: 5rem;
+    align-self: flex-end;
+}
+
+.homeoverviewbannerbodyleft img{
+    height: 100%;
+}
+
+.homeoverviewbannerbodyright {
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.homeoverviewbannerbodyrightbody{
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    min-height: 60vh;
+    
+}
+
+.homeoverviewbannerbodyrightbodyleft{
+    margin-top: 5rem;
+}
+
+.homeoverviewbannerbodyrightbodyright{
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+    min-width: 250px;
+}
+.homeoverviewbannerbodyrightbodyrightexperince{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.homeoverviewbannerbodyrightbodyrightexperince h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 50%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.clicktoknowmorebtn{
+    cursor: pointer;
+    max-width: 200px;
+    background-color: black;
+    border: 1px solid #00A0E3;
+    color: var(--white-card-color);
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.clicktoknowmorebtn i{
+    height: 100%;
+    background-color: #00A0E3;
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0%;
+    scale: 0.9;
+}
+
+/* service starts from here */
+.servicesbody{
+    display: flex;
+    gap: 3rem;
+}
+
+.servicesbody .sectionheading{
+    max-width: 33.3%;
+}
+.servicemainsection{
+    display: flex;
+    gap: 3rem;
+    max-width: 77%;
+}
+
+
+/* unique advantages starts from here  */
+
+.uniqueAdvantagesmain {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.uniqueadvantagesbody {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.uniqueadvantagescard{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 338px;
+}
+
+.uniqueadvantagescardbody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.uniqueadvantagescardimage{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    max-width: 90px;
+}
+
+.uniqueadvantagescardimage img{
+    width: 100%;
+    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg);
+}
+
+.qualitymain .sectionheading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.qualitymainrightbox {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 200px;
+    min-width: 200px;
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.qualitymainrightbox h5{
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--white-card-color);
+    text-align: center;
+}
+
+.qualitybody {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.qualitymain {
+    
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: column;
+}
+.qualitybody {
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualitybody .qualitycard{
+    max-width: 338px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.qualitycardicon{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    max-width: 50px;
+    background-color: #00A0E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* contact starts from here  */
+
+.contactsection{
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.contactsectionmain{
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* media query starts from here  */
+@media (max-width: 1200px) {
+    .herobody {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .herobody>div {
+        max-width: 100%;
+    }
+    .herobodyright {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        gap: 1rem;
+        min-height: 200px;
+    }
+    
+    .herobodyrightcard {
+        position: static;
+        max-width: 100%;
+    }
+    .herobodyrightimg img{
+        width: 100%;
+        max-height: 50vh;
+    }
+    .homeoverviewbannerbodyrightbody{
+        min-height: auto;
+    }
+    .homeoverviewbannerbodyrightbodyleft{
+        margin-top: 0rem;
+    }
+    
+    .homeoverviewbannerbodyrightbodyright{
+        margin-top: 0rem;
+    }
+    .uniqueadvantagesbody{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+@media (max-width: 992px) {
+    .herobody {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .herobody>div {
+        max-width: 100%;
+    }
+ 
+
+    .herobodyrightimg {
+        max-width: 100%;
+    }
+
+    .homeoverviewbannerbody {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .homeoverviewbannerbodyright {
+        max-width: 100%;
+    }
+
+    .homeoverviewbannerbodyleft{
+        display: none;
+    }
+    .herobodyrightimg{
+        max-width: 50%;
+    }
+    .herobodyrightcard {
+        position: static;
+        max-width: 50%;
+    }
+    .herobodyright{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        min-height: 200px;
+        position: static;
+    }  
+}
+
+@media (max-width: 768px) {
+    .herobtns {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+        
+    }
+    .herobodyright{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .herobodyrightcard {
+        position: static;
+        max-width: 100%;
+        width: 100%;
+    }
+    .herobrands{
+        margin-top: 1rem;
+    }
+    .herobrandsbody {
+        margin-top: 1rem;
+    }
+
+    .herobodyrightimg{
+        display: none;
+    }
+
+    .homeoverviewbannerbodyrightbody{
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .homeoverviewbannerbodyrightbottom{
+        justify-content: center;
+        display: flex;
+    }
+    .qualitybody{
+        justify-content: center;
+    }
+    
+    .qualitybody .qualitycard{
+        align-items: center;
+        text-align: center;
+    }
+    .servicesbody {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .servicesbody .sectionheading {
+        max-width: 100%;
+    }
+
+    .uniqueadvantagesbody{
+        justify-content: center;
+    }
+    .qualitymain .sectionheading {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .contactsection {
+        flex-direction: column;
+        gap: 1rem;
+    }
+  
+
+}

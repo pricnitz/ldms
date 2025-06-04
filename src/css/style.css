@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --red-color: #FF6B6B;
+    --black-color: #1F1F1F;
+    --yellow-color: #FFC107;
+
+    --gray-background-color: #F4F4F4;
+    --white-card-color: #FFFFFF;
+
+    --blackdark-text-color: #333333;
+    --blacklight-secondary-color: #777777;
+
+    --gray-light-color: #E0E0E0;
+    --red-exlight-border-color: #FF6B6B;
+    --red-darkhover-color: #FF3C3C;
+
+    --blue-exlight-color: #00A0E3;
+    --red-error-color: #F44336;
+    --yellow-warning-color: #FF9800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter Tight", sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+    margin: 0;
+    font-size: large;
+}
+
+/* all button  */
+
+.getstartedbtn {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: var(--white-card-color);
+    color: var(--black-color);
+    padding: 1rem;
+    border-bottom: 3px solid var(--green-exlight-color);
+    cursor: pointer;
+}
+
+.getstartedbtntwo {
+    background-color: var(--white-card-color);
+    color: var(--white-card-color);
+    padding: 1rem;
+    /* border-bottom: 3px solid var(--green-exlight-color); */
+}
+
+.line {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 1px;
+}
+
+.headingone {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.headingtwo {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.headingthree {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.headingfour {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.textone {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7F8381;
+}
+
+.texttwo {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #7F8381;
+}
+
+.textthree {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #7F8381;
+}
+
+
+/* universal classes starts from here  */
+.container {
+    max-width: 85%;
+    margin-inline: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header {
+    background-color: var(--black-color);
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 99;
+}
+
+#herosection {
+    background-image: url('https://img.freepik.com/free-photo/medium-shot-woman-working-luxury-restaurant_23-2150598335.jpg?ga=GA1.1.175441891.1739873448&semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#herosection .herobanner {
+    position: absolute;
+    inset: 0;
+    background-color: #000000c7;
+    backdrop-filter: blur(5px);
+}
+
+
+
+#homeoverview {
+    background-color: #0C100F;
+    color: white;
+    min-height: 100vh;
+}
+
+#contactform{
+    background-color: #F5F6F6;
+    padding-block: 5rem;
+}
+
+
+#services,
+#uniqueAdvantages,
+.aboutbody {
+    padding-block: 5rem;
+    background-color: #F5F6F6;
+}
+
+#uniqueAdvantages {
+    background-color: white;
+}
+
+#quality {
+    background-color: #0C100F;
+    color: white;
+    padding-block: 5rem;
+}
+
+.sectionheading span {
+    color: #00A0E3;
+    width: fit-content;
+    border-bottom: 1px solid #00A0E3;
+}
+
+.footer {
+    background-color: var(--black-color);
+    padding-block: 5rem 2rem;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    
+    .container {
+        max-width: 90%;
+    }
+    #herosection{
+        min-height: 100vh;
+        height: max-content;
+    }
+    #homeoverview {
+        min-height: auto;
+    }
+}
+
+
+/* sectionheader  starts from here */
+.sectionheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.sectionheader::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000000c7;
+    backdrop-filter: blur(5px);
+    z-index: 1;     
+}
+
+.sectionheader__container {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+}
+
+
+
+/* cards starts from here  */
+
+.servicemainsectioncards ,.aboutmainsectioncards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.servicemainsectioncardimg{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: black;
+    max-width: 70px;
+}
+.servicemainsectioncardimg img{
+    width: 100%;   
+}
+
+.servicemainsectioncard{
+    display: flex;
+    gap: 1rem;
+    /* max-width: 320px; */
+}

@@ -1,0 +1,9 @@
+.pageaboutmain{
+    display: flex;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.pageaboutmain>div{
+    max-width: 33%;
+}
